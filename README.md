@@ -4,7 +4,7 @@ This repository contains the core algorithms for finding model coefficients usin
 
 optmizeTOMMF_L1_Counterpart is only used for results reported in Extended Data Fig. 1, using the same initialization function initTOMMF. The L1-counterpart is unable to dissect the psychopharmacological pattern into distinct components, therefore we did not included it in the main results. However, it may be a valid alternative for efficiency if only predictability is desired. We provide its code to both demonstrate the unique advantage endowed by L0-regularization and show its validity to achieve comparable predictability.
 
-Please refer to the accompanying paper's appendices for analytical details.
+For analytical details, please refer to the accompanying paper's appendices. 
 
 Reference (preprint): 
 Tong, Xiaoyu, et al. "Optimizing Antidepressant Efficacy: Generalizable Multimodal Neuroimaging Biomarkers for Prediction of Treatment Response." medRxiv (2024).
