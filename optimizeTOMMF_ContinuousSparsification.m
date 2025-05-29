@@ -3,7 +3,7 @@ function [WS,WF,G,beta,MS,MF,Mbeta,alphaW,alphaBeta,L_history,L_sub] = optimizeT
 % 
 % Input:
 % XS -- data matrix for structural connectivity (N x D_S)
-% XF -- data matrix for structural connectivity (N x D_F)
+% XF -- data matrix for functional connectivity (N x D_F)
 % Y --  data vector for prediction target (N x 1)
 % WS -- initial guess of WS (D_S x P)
 % WF -- initial guess of WF (D_S x P)
