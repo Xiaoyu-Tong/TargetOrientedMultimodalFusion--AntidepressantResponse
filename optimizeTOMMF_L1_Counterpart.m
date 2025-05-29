@@ -3,7 +3,7 @@ function [WS,WF,G,beta,L_history,iIter] = optimizeTOMMF_L1_Counterpart(rhoS,rhoF
 % 
 % Input:
 % XS -- data matrix for structural connectivity (N x D_S)
-% XF -- data matrix for structural connectivity (N x D_F)
+% XF -- data matrix for functional connectivity (N x D_F)
 % Y --  data vector for prediction target (N x 1)
 % WS -- initial guess of WS (D_S x P)
 % WF -- initial guess of WF (D_S x P)
