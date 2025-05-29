@@ -3,7 +3,7 @@ function [WS,WF,G,beta] = initTOMMF(XS,XF,Y,lambda_fusion,lambda_pred)
 % 
 % Input:
 % XS -- data matrix for structural connectivity (N x D_S)
-% XF -- data matrix for structural connectivity (N x D_F)
+% XF -- data matrix for functional connectivity (N x D_F)
 % Y --  data vector for prediction target (N x 1)
 % lambda_pred -- hyperparameter for prediction task (L2-regularization)
 % *** Note, XS and XF should be normalized so that regularization is fair
