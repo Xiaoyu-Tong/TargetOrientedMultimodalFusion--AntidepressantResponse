@@ -19,7 +19,7 @@ optmizeTOMMF_L1_Counterpart is only used for results reported in Extended Data F
 
 For analytical details, please refer to the accompanying paper's appendices. 
 
-Reference: 
+### Reference
 Tong, Xiaoyu, et al. "Generalizable structure–function covariation predictive of antidepressant response revealed by target-oriented multimodal fusion." **_Nature Mental Health_** (2026).
 
 preprint version: https://www.medrxiv.org/content/10.1101/2024.04.11.24305583v2)
