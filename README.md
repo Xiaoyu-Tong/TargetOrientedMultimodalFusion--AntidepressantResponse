@@ -3,8 +3,10 @@
 This repository contains the core algorithms for finding model coefficients using the TOMMF framework. 
 
 
-<!-- ### Framework Design
--->
+### Framework Design
+<img width="921" height="435" alt="image" src="https://github.com/user-attachments/assets/1f1f5f17-208d-4e7f-a461-3a1c2adf83d1" />
+
+
 
 <!-- ### Advantages of TOMMF
 -->
