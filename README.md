@@ -8,9 +8,9 @@ This repository contains the core algorithms for finding model coefficients usin
 
 TOMMF is a end-to-end learning framework consisting of two steps: 1) multimodal fusion, and 2) target prediction. The multimodal fusion step takes SC and FC features and uses a CCA-inspired loss to identify SC-FC covariation dimensions that maximize the association between SC and FC dimensions. Essentially, SC-FC covariation features are weighted sums of SC and FC dimensions that represent their consensus information. Then these features are used to predict the clinical target of interest (e.g., treatment response). Notably, in addition to this forward propogation, there is also a reciprocal feedback from prediction target to multimodal fusion ensuring the clinical relevance of identified SC-FC covariation dimensions. The bidirectional propagation yields covariation features representing both SC-FC interplay and target-relevant information.
 
-<!-- ### Advantages of TOMMF
-Three key advantages of TOMMF are endowed by its design: 1) Enhanced target relevance for multimodal features, 2) Ability to examine the interplay between modalities, and 3) Enhanced robustness of biomarkers. 
--->
+### Advantages of TOMMF
+Three key advantages of TOMMF are endowed by its design: 1) Enhanced target relevance for multimodal features, 2) Ability to examine the interplay between modalities, and 3) Enhanced robustness of biomarkers. First, the end-to-end design allows backpropagation of target information to multimodal fusion that tailors the SC-FC covariation features to the target of interest. Second, the design to maximize the association between SC and FC dimension scores enables us to identify SC and FC abnormalities linking to each other, revealing interaction/relationship between SC and FC variations, especially those involving different region pairs. Furthermore, the emphasis on the information in agreement helps the model to extract more reliable features, conceptually SC-approved FC and FC-approved SC. 
+
 
 <!-- ### Key Results
 -->
