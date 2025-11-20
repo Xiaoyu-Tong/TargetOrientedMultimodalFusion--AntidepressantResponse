@@ -6,10 +6,7 @@ This repository contains the core algorithms for finding model coefficients usin
 ### Framework Design
 <img width="921" height="435" alt="image" src="https://github.com/user-attachments/assets/1f1f5f17-208d-4e7f-a461-3a1c2adf83d1" />
 
-TOMMF is a end-to-end learning framework consisting of two functional modules: 1) multimodal fusion, and 2) target prediction. 
-
-SC and FC dimensions are jointly identified to maximize their association, producing structure-function covariation features as weighted sums of SC and FC dimensions that encapsulate their consensus information. These features are used to predict individual treatment responses, with reciprocal feedback from prediction target ensuring clinical relevance of the identified structure-function covariation. The bidirectional propagation yields robust covariation features representing SC-FC interplay and predicting treatment outcomes.
-
+TOMMF is a end-to-end learning framework consisting of two steps: 1) multimodal fusion, and 2) target prediction. The multimodal fusion step takes SC and FC features and uses a CCA-inspired loss to identify SC-FC covariation dimensions that maximize the association between SC and FC dimensions. Essentially, SC-FC covariation features are weighted sums of SC and FC dimensions that represent their consensus information. Then these features are used to predict the clinical target of interest (e.g., treatment response). Notably, in addition to this forward propogation, there is also a reciprocal feedback from prediction target to multimodal fusion ensuring the clinical relevance of identified SC-FC covariation dimensions. The bidirectional propagation yields covariation features representing both SC-FC interplay and target-relevant information.
 
 <!-- ### Advantages of TOMMF
 -->
