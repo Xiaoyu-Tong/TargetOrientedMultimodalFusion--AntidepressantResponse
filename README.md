@@ -1,14 +1,14 @@
-# Target-Oriented MultiModal Fusion (TOMMF) -- SC-FC Covariation-Based Antidepressant Response Prediction
+## Target-Oriented MultiModal Fusion (TOMMF) -- SC-FC Covariation-Based Antidepressant Response Prediction
 
 This repository contains the core algorithms for finding model coefficients using the TOMMF framework. 
 
 
-## Framework Design
+### Framework Design
 
 
-## Advantages of TOMMF
+### Advantages of TOMMF
 
-
+### Code Usage
 
 For primary results, the code **initTOMMF**, **optimizeTOMMF_ContinuousSparsification** and **optimizeTOMMF_FineTuning** are used. These functions are called in order (Initialization -> Continuous Sparsification -> Fine Tuning), and the outputs of the previous step are the inputs of next. The inputs of initTOMMF are (normalized) structural connectivity, (normalized) functional connectivity, (normalized) prediction target (in our case, antidepressant response), and regularization parameters (one for latent dimensions and one for prediction weights).
 
