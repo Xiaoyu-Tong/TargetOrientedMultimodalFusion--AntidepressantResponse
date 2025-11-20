@@ -6,6 +6,7 @@ optmizeTOMMF_L1_Counterpart is only used for results reported in Extended Data F
 
 For analytical details, please refer to the accompanying paper's appendices. 
 
-Reference (preprint): 
-Tong, Xiaoyu, et al. "Optimizing Antidepressant Efficacy: Generalizable Multimodal Neuroimaging Biomarkers for Prediction of Treatment Response." medRxiv (2024).
-(https://www.medrxiv.org/content/10.1101/2024.04.11.24305583v2)
+Reference: 
+Tong, Xiaoyu, et al. "Generalizable structure–function covariation predictive of antidepressant response revealed by target-oriented multimodal fusion" **_Nature Mental Health_** (2026).
+
+preprint version: https://www.medrxiv.org/content/10.1101/2024.04.11.24305583v2)
