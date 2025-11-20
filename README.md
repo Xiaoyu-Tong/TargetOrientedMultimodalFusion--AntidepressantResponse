@@ -9,6 +9,7 @@ This repository contains the core algorithms for finding model coefficients usin
 TOMMF is a end-to-end learning framework consisting of two steps: 1) multimodal fusion, and 2) target prediction. The multimodal fusion step takes SC and FC features and uses a CCA-inspired loss to identify SC-FC covariation dimensions that maximize the association between SC and FC dimensions. Essentially, SC-FC covariation features are weighted sums of SC and FC dimensions that represent their consensus information. Then these features are used to predict the clinical target of interest (e.g., treatment response). Notably, in addition to this forward propogation, there is also a reciprocal feedback from prediction target to multimodal fusion ensuring the clinical relevance of identified SC-FC covariation dimensions. The bidirectional propagation yields covariation features representing both SC-FC interplay and target-relevant information.
 
 <!-- ### Advantages of TOMMF
+Three key advantages of TOMMF are endowed by its design: 1) Enhanced target relevance for multimodal features, 2) Ability to examine the interplay between modalities, and 3) Enhanced robustness of biomarkers. 
 -->
 
 <!-- ### Key Results
@@ -25,4 +26,3 @@ For analytical details, please refer to the accompanying paper's appendices.
 ### Reference
 Tong, Xiaoyu, et al. "Generalizable structure–function covariation predictive of antidepressant response revealed by target-oriented multimodal fusion." **_Nature Mental Health_** (2026).
 
-preprint version: https://www.medrxiv.org/content/10.1101/2024.04.11.24305583v2)
