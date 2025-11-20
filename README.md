@@ -6,7 +6,9 @@ This repository contains the core algorithms for finding model coefficients usin
 ### Framework Design
 <img width="921" height="435" alt="image" src="https://github.com/user-attachments/assets/1f1f5f17-208d-4e7f-a461-3a1c2adf83d1" />
 
-Structural and functional connectivity (SC and FC) features are extracted from diffusion tensor imaging and resting-state functional MRI. SC and FC dimensions are jointly identified to maximize their association, producing structure-function covariation features as weighted sums of SC and FC dimensions that encapsulate their consensus information. These features are used to predict individual treatment responses, with reciprocal feedback from prediction target ensuring clinical relevance of the identified structure-function covariation. The bidirectional propagation yields robust covariation features representing SC-FC interplay and predicting treatment outcomes.
+TOMMF is a end-to-end learning framework consisting of two functional modules: 1) multimodal fusion, and 2) target prediction. 
+
+SC and FC dimensions are jointly identified to maximize their association, producing structure-function covariation features as weighted sums of SC and FC dimensions that encapsulate their consensus information. These features are used to predict individual treatment responses, with reciprocal feedback from prediction target ensuring clinical relevance of the identified structure-function covariation. The bidirectional propagation yields robust covariation features representing SC-FC interplay and predicting treatment outcomes.
 
 
 <!-- ### Advantages of TOMMF
